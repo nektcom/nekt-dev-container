@@ -1,8 +1,8 @@
 # Nekt - Notebook for Data Transformation
 
-Welcome to the Nekt's Jupyter Notebook for Data Transformation template. This guide will walk you through the steps to set up your environment and use this notebook to load multiple tables from your Lakehouse, perform necessary data operations or transformations and save your resulting data frame in a new or existing table.
+Welcome to the Nekt's Jupyter Notebook for Data Transformation template. This guide will walk you through the steps to set up your environment and use this notebook to load multiple tables from your Lakehouse, perform necessary data operations or transformations and validate your transformation before executing it on production at Nekt.
 
-This repo allows you to:
+This repo gives you instructions to:
 - [Run on GitHub Codespaces](https://github.com/olbycom/nekt-dev-container?tab=readme-ov-file#run-on-github-codespaces): GitHub Codespaces gets you up and coding faster with fully configured, secure cloud development environments native to GitHub.
 - [Run locally on VS Code](https://github.com/olbycom/nekt-dev-container?tab=readme-ov-file#run-locally-on-vs-code): Use Dev Containers to create an isolated enviroment with all the dependencies required to run PySpark transformations, no additional setup required.
 
@@ -17,7 +17,7 @@ This repo allows you to:
 3. A new tab will open with a web version of VS Code. Wait until the environment is set up and all dependencies are installed.
 ![image](https://github.com/user-attachments/assets/9feb9888-c767-401b-9f2d-de109d95c840)
 
-4. Once the everything is ready, this README will show up in VS Code.
+4. Once everything is ready, this README will show up in VS Code.
 ![image](https://github.com/user-attachments/assets/8366f425-685a-4de7-b681-c37b22164dce)
 
 ## Run locally on VS Code
@@ -31,7 +31,7 @@ This repo allows you to:
 ### Setup
 
 1. Open Docker desktop app and wait until the Docker engine is up and running.
-2. Open this repository on VS Code on the root folder. This is what it shold like:
+2. Open this repository on VS Code on the root folder. This is what it should look like:
 ![image](https://github.com/user-attachments/assets/cf9adf68-4367-486e-8153-c0d222e0ae65)
 
 
@@ -44,7 +44,7 @@ This repo allows you to:
 
 ## Using the Notebook
 
-The template notebook is pre-filled to help you load tables directly from S3, perform the required data transformations, and guide you on the next steps to deploy your code on our platform. Here's a quick overview of how to use it:
+The template notebook is pre-filled to help you load tables directly from your Lakehouse, perform the required data transformations, and guide you on the next steps to deploy your transformation code on our platform. Here's a quick overview of how to use it:
 
 - **Load Data**: Follow the steps in the notebook to connect to your data sources and load the data into the notebook environment.
 - **Transform Data**: Utilize the pre-built functions or add your own transformations as needed.
@@ -55,7 +55,7 @@ The template notebook is pre-filled to help you load tables directly from S3, pe
 Once you're done with testing your data transformations in the Jupyter notebook, you're ready to deploy your code to Nekt's platform and apply the transformation in a production pipeline. Here's the step-by-step on how to do it:
 
 1. Perform testing and validation of your Jupyter notebook script to ensure it's working as intended;
-2. Use the 'Final result' section of your Jupyter notebook file to populate the function 'user_transformation(delta_dict)'. This is the function you will use to create your transformation in our platform;
+2. Use the 'Final result' section of your Jupyter notebook file to populate the function `user_transformation(delta_dict)`. This is the function you will use to create your transformation in our platform;
    2.1. Please read the comments in that section carefully to properly populate the function with your code. There are a few points to pay attention to, all of which are described there.
 3. Go to [Add transformation](https://app.nekt.ai/transformations/add-transformation), select your input tables, give your new table a name, and paste the `user_transformation(delta_dict)` in the code section.
 5. Once configured you will be able to see the details on the [Transformations tab](https://app.nekt.ai/transformations) of the Nekt app.
