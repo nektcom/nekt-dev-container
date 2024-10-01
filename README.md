@@ -2,29 +2,45 @@
 
 Welcome to the Nekt's Jupyter Notebook for Data Transformation template. This guide will walk you through the steps to set up your environment and use this notebook to load multiple tables from your Lakehouse, perform necessary data operations or transformations and save your resulting data frame in a new or existing table.
 
-## Prerequisites
+This repo allows you to:
+- [Run on GitHub Codespaces](https://github.com/olbycom/nekt-dev-container/main/README.md#run-on-github-codespaces): GitHub Codespaces gets you up and coding faster with fully configured, secure cloud development environments native to GitHub.
+- [Run locally on VS Code](https://github.com/olbycom/nekt-dev-container/main/README.md#run-locally-on-vs-code): Use Dev Containers to create an isolated enviroment with all the dependencies required to run PySpark transformations, no additional setup required.
 
-- Python 3.9.X
-- [Poetry](https://python-poetry.org/docs/#installation) for dependency management
+## Run on GitHub Codespaces
 
-## Setup
+### Setup
 
-1. **Install Poetry**: If you haven't already, install Poetry on your machine. Follow the instructions on the [official Poetry website](https://python-poetry.org/docs/#installation).
+1. Click on **Code**.
+2. Click on **Create codespace on main**.
+![image](https://github.com/user-attachments/assets/2fcaefc3-eb01-4de7-82e3-8f824657e10c)
 
-2. **Download the Template**: Download the provided Jupyter notebook and configuration files (`poetry.toml`, `pyproject.toml`) from Nekt platform.
+3. A new tab will open with a web version of VS Code. Wait until the environment is set up and all dependencies are installed.
+![image](https://github.com/user-attachments/assets/9feb9888-c767-401b-9f2d-de109d95c840)
 
-3. **Initialize Your Environment**:
+4. Once the everything is ready, this README will show up in VS Code.
+![image](https://github.com/user-attachments/assets/8366f425-685a-4de7-b681-c37b22164dce)
 
-   - Open a terminal in the directory where you've saved the downloaded files.
-   - Run `poetry install` to create a virtual environment and install the dependencies defined in `pyproject.toml`.
+## Run locally on VS Code
 
-4. **Activate the Virtual Environment**:
+### Prerequisites
 
-   - Poetry automatically handles virtual environments. Once you run `poetry install` it's gonna automatically create a `.venv` folder on your working directory. To activate the virtual environment, use the following command `source .venv/bin/activate`. In case you're using another virtual environment, make sure to run `deactivate` before activating the new one.
+- [Docker](https://www.docker.com/get-started/)
+- [VS Code](https://code.visualstudio.com/download)
+- [VS Code extension - Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 
-5. **Start Jupyter Notebook**:
-   - While in the virtual environment, run `jupyter notebook` to start the Jupyter Notebook server.
-   - Open the `.ipynb` file in the Jupyter Notebook interface that appears in your browser and select the kernel associated with your recently created virtual environment.
+### Setup
+
+1. Open Docker desktop app and wait until the Docker engine is up and running.
+2. Open this repository on VS Code on the root folder. This is what it shold like:
+![image](https://github.com/user-attachments/assets/cf9adf68-4367-486e-8153-c0d222e0ae65)
+
+
+3. Open VS Code command pallete (Control+Shif+P on Windows or CMD+Shift+P on MacOS).
+4. Run `Dev Containers: Reopen in Container`
+![image](https://github.com/user-attachments/assets/1f3ab775-0f34-4ef9-bcfd-7d4e2e2e2c26)
+
+5. The project will reopen on a new window of VS Code. You can click on `show log` on the bottom right corner to see the progress. Wait until the environment is set up and all dependencies are installed.
+   ![image](https://github.com/user-attachments/assets/55b17002-bf87-456d-8519-9a9d1447cd1a)
 
 ## Using the Notebook
 
@@ -48,7 +64,7 @@ We are working hard to allow users to directly add transformations to their work
 
 ## Best Practices
 
-- **Isolate Environments**: Use Poetry to manage dependencies and isolate your project environment to avoid conflicts. Feel free to add new dependencies as needed.
+- **Isolate Environments**: Use pip to manage dependencies. Add new dependencies updating [devcontainer.json](.devcontainer/devcontainer.json#L21) and [Dockerfile](.devcontainer/Dockerfile#L18).
 - **Version Control**: Consider using version control (e.g., git) to manage and track changes to your notebook and related files. As your data evolves, you have to make sure your data transformations follow along.
 
 ## Support
