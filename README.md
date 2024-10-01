@@ -3,8 +3,8 @@
 Welcome to the Nekt's Jupyter Notebook for Data Transformation template. This guide will walk you through the steps to set up your environment and use this notebook to load multiple tables from your Lakehouse, perform necessary data operations or transformations and save your resulting data frame in a new or existing table.
 
 This repo allows you to:
-- [Run on GitHub Codespaces](https://github.com/olbycom/nekt-dev-container/main/README.md#run-on-github-codespaces): GitHub Codespaces gets you up and coding faster with fully configured, secure cloud development environments native to GitHub.
-- [Run locally on VS Code](https://github.com/olbycom/nekt-dev-container/main/README.md#run-locally-on-vs-code): Use Dev Containers to create an isolated enviroment with all the dependencies required to run PySpark transformations, no additional setup required.
+- [Run on GitHub Codespaces](https://github.com/olbycom/nekt-dev-container?tab=readme-ov-file#run-on-github-codespaces): GitHub Codespaces gets you up and coding faster with fully configured, secure cloud development environments native to GitHub.
+- [Run locally on VS Code](https://github.com/olbycom/nekt-dev-container?tab=readme-ov-file#run-locally-on-vs-code): Use Dev Containers to create an isolated enviroment with all the dependencies required to run PySpark transformations, no additional setup required.
 
 ## Run on GitHub Codespaces
 
