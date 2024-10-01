@@ -4,7 +4,7 @@ Welcome to the Nekt's Jupyter Notebook for Data Transformation template. This gu
 
 This repo gives you instructions to:
 - [Run on GitHub Codespaces](https://github.com/olbycom/nekt-dev-container?tab=readme-ov-file#run-on-github-codespaces): GitHub Codespaces gets you up and coding faster with fully configured, secure cloud development environments native to GitHub.
-- [Run locally on VS Code](https://github.com/olbycom/nekt-dev-container?tab=readme-ov-file#run-locally-on-vs-code): Use Dev Containers to create an isolated enviroment with all the dependencies required to run PySpark transformations, no additional setup required.
+- [Run locally using Dev Container](https://github.com/olbycom/nekt-dev-container?tab=readme-ov-file#run-locally-using-dev-container): Use Dev Containers to create an isolated enviroment with all the dependencies required to run PySpark transformations, no additional setup required.
 
 ## Run on GitHub Codespaces
 
@@ -20,7 +20,7 @@ This repo gives you instructions to:
 4. Once everything is ready, this README will show up in VS Code.
 ![image](https://github.com/user-attachments/assets/8366f425-685a-4de7-b681-c37b22164dce)
 
-## Run locally on VS Code
+## Run locally using Dev Container
 
 ### Prerequisites
 
