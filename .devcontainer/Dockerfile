@@ -15,7 +15,7 @@ ENV JAVA_HOME=/usr/lib/jvm/temurin-11-jdk-amd64
 ENV PATH=$JAVA_HOME/bin:$PATH
 
 # Install Delta Lake, PySpark, and Jupyter
-RUN pip install delta-spark==2.3.0 pyspark==3.3.4 jupyter
+RUN pip install delta-spark==3.2.1 pyspark==3.5.3 jupyter
 
 # Expose port 8888 for Jupyter Notebook
 EXPOSE 8888
