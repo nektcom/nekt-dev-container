@@ -11,7 +11,7 @@ This repo gives you instructions to:
 ### Prerequisites
 
 - [Docker](https://www.docker.com/get-started/)
-- [VS Code](https://code.visualstudio.com/download), [Cursor](https://www.cursor.com/), or any VS Code-based editor.
+- [VS Code](https://code.visualstudio.com/download), [Cursor](https://www.cursor.com/), or any VS Code-based editor
 - [VS Code extension - Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 
 ### Setup
