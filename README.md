@@ -3,29 +3,15 @@
 Welcome to the Nekt's Jupyter Notebook for Data Transformation template. This guide will walk you through the steps to set up your environment and use this notebook to load multiple tables from your Lakehouse, perform necessary data operations or transformations and validate your transformation before executing it on production at Nekt.
 
 This repo gives you instructions to:
-- [Run on GitHub Codespaces](https://github.com/olbycom/nekt-dev-container?tab=readme-ov-file#run-on-github-codespaces): GitHub Codespaces gets you up and coding faster with fully configured, secure cloud development environments native to GitHub.
-- [Run locally using Dev Container](https://github.com/olbycom/nekt-dev-container?tab=readme-ov-file#run-locally-using-dev-container): Use Dev Containers to create an isolated enviroment with all the dependencies required to run PySpark transformations, no additional setup required.
-
-## Run on GitHub Codespaces
-
-### Setup
-
-1. Click on **Code**.
-2. Click on **Create codespace on main**.
-![image](https://github.com/user-attachments/assets/2fcaefc3-eb01-4de7-82e3-8f824657e10c)
-
-3. A new tab will open with a web version of VS Code. Wait until the environment is set up and all dependencies are installed.
-![image](https://github.com/user-attachments/assets/9feb9888-c767-401b-9f2d-de109d95c840)
-
-4. Once everything is ready, this README will show up in VS Code.
-![image](https://github.com/user-attachments/assets/8366f425-685a-4de7-b681-c37b22164dce)
+- [Run locally using Dev Container](https://github.com/nektcom/nekt-dev-container?tab=readme-ov-file#run-locally-using-dev-container): Use Dev Containers to create an isolated enviroment with all the dependencies required to run PySpark transformations, no additional setup required.
+- [Run on GitHub Codespaces](https://github.com/nektcom/nekt-dev-container?tab=readme-ov-file#run-on-github-codespaces): GitHub Codespaces gets you up and coding faster with fully configured, secure cloud development environments native to GitHub.
 
 ## Run locally using Dev Container
 
 ### Prerequisites
 
 - [Docker](https://www.docker.com/get-started/)
-- [VS Code](https://code.visualstudio.com/download)
+- [VS Code](https://code.visualstudio.com/download), [Cursor](https://www.cursor.com/), or any VS Code-based editor.
 - [VS Code extension - Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 
 ### Setup
@@ -41,6 +27,20 @@ This repo gives you instructions to:
 
 5. The project will reopen on a new window of VS Code. You can click on `show log` on the bottom right corner to see the progress. Wait until the environment is set up and all dependencies are installed.
    ![image](https://github.com/user-attachments/assets/55b17002-bf87-456d-8519-9a9d1447cd1a)
+
+## Run on GitHub Codespaces
+
+### Setup
+
+1. Click on **Code**.
+2. Click on **Create codespace on main**.
+![image](https://github.com/user-attachments/assets/2fcaefc3-eb01-4de7-82e3-8f824657e10c)
+
+3. A new tab will open with a web version of VS Code. Wait until the environment is set up and all dependencies are installed.
+![image](https://github.com/user-attachments/assets/9feb9888-c767-401b-9f2d-de109d95c840)
+
+4. Once everything is ready, this README will show up in VS Code.
+![image](https://github.com/user-attachments/assets/8366f425-685a-4de7-b681-c37b22164dce)
 
 ## Using the Notebook
 
